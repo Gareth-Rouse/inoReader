@@ -1,0 +1,82 @@
+/* Base background colors */
+#reader_pane.reader_pane_view_style_4,
+#reader_pane.reader_pane_view_style_4 .unsubscribed_feed_suggestions_label,
+#tree_pane,
+#subscriptions_fieldset,
+#subscriptions_buttons,
+#sb_rp_tools,
+#sb_tp_search_overlay,
+#three_way_contents {
+    background-color: #111111;
+}
+
+/* Article backgrounds */
+.ar.article_subscribed {
+    background: #141414;
+}
+
+/* Unread articles - subtle blue tint */
+.ar.article_unreaded {
+    background: #151a20;
+}
+
+/* Pop-up article dialog */
+#article_dialog,
+.article_full_contents,
+.article_footer {
+    background: #1a1a1a;
+    border: 1px solid #222;
+}
+
+/* Unread count styling */
+.unread_cnt {
+    color: #228B22;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Current article highlight */
+div.article_current,
+div.article_current_collapsed,
+div.article_magazine.article_current {
+    background: #1f1515;
+    border-left: 3px solid #ff9ecd;
+}
+
+/* Link colors */
+a.bluelink:link {
+    color: #228B22;
+    text-decoration: none;
+}
+
+a.bluelink:hover {
+    text-decoration: underline;
+}
+
+/* Content text colors */
+.article_content {
+    color: #e1e1e1;
+    line-height: 1.6;
+}
+
+/* Article titles */
+a.article_title_link {
+    color: #90ee90;
+    font-weight: 500;
+}
+
+a.article_title_link:hover {
+    color: #a5ffa5;
+    text-decoration: none;
+}
+
+/* Additional hover states for better interactivity */
+.ar:hover {
+    background: #1d1d1d;
+}
+
+/* Selection color */
+::selection {
+    background: #2b2b2b;
+    color: #fff;
+}
